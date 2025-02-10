@@ -59,7 +59,7 @@ if(req.session.authorization) { //get the authorization object stored in the ses
 
 
  
-const PORT =5000;
+const PORT =5001;
 
 app.use("/customer", customer_routes);
 app.use("/", genl_routes);
